@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+a {
+  color: cyan;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+}
+
+img, video {
+  width: 60%;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+ul {
+  list-style-type: square;
+  text-align: left;
+  display: inline-block;
+}
+
+img {
+  width: auto;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

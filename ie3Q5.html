@@ -1,0 +1,24 @@
+<nav>
+  <a href="home.html" class="active">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <a href="mailto:info@example.com">Email Us</a>
+</nav>
+
+<style>
+a[href^="mailto:"]{
+    color: green;
+    text-decoration: underline;
+}
+a[href]:hover{
+    background-color: lightgrey;
+}
+a[href].active{
+    color: blue;
+}
+li:has(a[href].active) + li{
+    opacity: 0.6;
+}
+
+
+</style>
